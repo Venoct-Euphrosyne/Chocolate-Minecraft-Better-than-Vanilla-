@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Chocolate Minecraft (better than Vanilla)",
+		"description": "Chocolate Minecraft (better than Vanilla) Behavior Pack",
+		"uuid": "357889bb-4fc7-f6fd-b89c-e4c65faf93c7",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Venoct Euphrosyne"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "997a51fa-ba8b-d1e5-8b62-162d2fa1bc4c",
+			"type": "data"
+		},
+		{
+			"description": "pack scripts",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "af61fbf8-a2f0-416d-ba75-df8ca229f217",
+			"version": [1, 0, 0],
+			"entry": "scripts/_import.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "78129d64-116f-08e7-603f-82707e19d430",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		}
+	]
+}
