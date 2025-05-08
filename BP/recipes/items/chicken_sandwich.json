@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ve:chicken_sandwich"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#C#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "item": "minecraft:cooked_chicken"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "minecraft:cooked_chicken"
+      }
+    ],
+    "result": {
+      "item": "ve:chocolate"
+    }
+  }
+}
