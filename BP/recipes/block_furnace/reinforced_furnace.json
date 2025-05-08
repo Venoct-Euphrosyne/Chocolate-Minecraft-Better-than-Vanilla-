@@ -1,0 +1,30 @@
+{
+  "format_version": "1.18.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "block_furnace:reinforced_furnace"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cobbled_deepslate"
+      },
+      "X": {
+        "item": "minecraft:furnace"
+      }
+    },
+    "result": [
+      {
+        "item": "block_furnace:reinforced_furnace",
+        "count": 1
+      }
+    ]
+  }
+}
