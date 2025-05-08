@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ve:stone_wall"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stone"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:stone"
+      }
+    ],
+    "result": {
+      "item": "ve:stone_wall",
+      "count": 6
+    }
+  }
+}
