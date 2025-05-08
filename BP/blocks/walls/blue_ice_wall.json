@@ -1,0 +1,599 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ve:blue_ice_wall",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.walls"
+			},
+			"states": {
+				"wall:top_bit": [
+					false,
+					true
+				],
+				"wall:connect_north": [
+					false,
+					true
+				],
+				"wall:connect_south": [
+					false,
+					true
+				],
+				"wall:connect_east": [
+					false,
+					true
+				],
+				"wall:connect_west": [
+					false,
+					true
+				],
+				"wall:slim": [
+					false,
+					true
+				],
+				"wall:slim_bit": [
+					"north_south",
+					"east_west"
+				]
+			}
+		},
+		"components": {
+			"minecraft:display_name": "Blue Ice Wall",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 4.5,
+				"item_specific_speeds": [
+					{
+						"item": "minecraft:wooden_pickaxe",
+						"destroy_speed": 2.1
+					},
+					{
+						"item": "minecraft:stone_pickaxe",
+						"destroy_speed": 1.05
+					},
+					{
+						"item": "minecraft:iron_pickaxe",
+						"destroy_speed": 0.7
+					},
+					{
+						"item": "minecraft:diamond_pickaxe",
+						"destroy_speed": 0.55
+					},
+					{
+						"item": "minecraft:netherite_pickaxe",
+						"destroy_speed": 0.5
+					},
+					{
+						"item": "minecraft:golden_pickaxe",
+						"destroy_speed": 0.35
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2.8
+			},
+			"minecraft:loot": 
+			"loot_tables/blocks/walls/blue_ice_wall.json",
+			"minecraft:friction": 0.02,
+			"tag:wall:is_wall": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.wall_block",
+				"bone_visibility": {
+					"center": "!q.block_state('wall:slim')",
+					"center_slim_south_north": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'north_south' && !q.block_state('wall:top_bit')",
+					"center_slim_south_north_above": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'north_south' && q.block_state('wall:top_bit')",
+					"center_slim_east_west": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'east_west' && !q.block_state('wall:top_bit')",
+					"center_slim_east_west_above": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'east_west' && q.block_state('wall:top_bit')",
+					"north": "q.block_state('wall:connect_north') && !q.block_state('wall:top_bit')",
+					"north_above": "q.block_state('wall:connect_north') && q.block_state('wall:top_bit')",
+					"south": "q.block_state('wall:connect_south') && !q.block_state('wall:top_bit')",
+					"south_above": "q.block_state('wall:connect_south') && q.block_state('wall:top_bit')",
+					"east": "q.block_state('wall:connect_east') && !q.block_state('wall:top_bit')",
+					"east_above": "q.block_state('wall:connect_east') && q.block_state('wall:top_bit')",
+					"west": "q.block_state('wall:connect_west') && !q.block_state('wall:top_bit')",
+					"west_above": "q.block_state('wall:connect_west') && q.block_state('wall:top_bit')"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "blue_ice"
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('wall:connect_north') && !q.block_state('wall:connect_south') && !q.block_state('wall:connect_east') && !q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							8,
+							16,
+							8
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							8,
+							16,
+							8
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'north_south' && q.block_state('wall:top_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-3,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-3,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'north_south' && !q.block_state('wall:top_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-3,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-3,
+							0,
+							-8
+						],
+						"size": [
+							6,
+							13,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'east_west' && q.block_state('wall:top_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-3
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-3
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'east_west' && !q.block_state('wall:top_bit')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-3
+						],
+						"size": [
+							16,
+							16,
+							6
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-3
+						],
+						"size": [
+							16,
+							13,
+							6
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:connect_north') && !q.block_state('wall:connect_south') && !q.block_state('wall:connect_east') && !q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							8,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							8,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('wall:connect_north') && q.block_state('wall:connect_south') && !q.block_state('wall:connect_east') && !q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							8,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							8,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('wall:connect_north') && !q.block_state('wall:connect_south') && q.block_state('wall:connect_east') && !q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							8
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							8
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('wall:connect_north') && !q.block_state('wall:connect_south') && !q.block_state('wall:connect_east') && q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							8
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							8
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:connect_north') && !q.block_state('wall:connect_south') && q.block_state('wall:connect_east') && !q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:connect_north') && !q.block_state('wall:connect_south') && !q.block_state('wall:connect_east') && q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('wall:connect_north') && q.block_state('wall:connect_south') && !q.block_state('wall:connect_east') && q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('wall:connect_north') && q.block_state('wall:connect_south') && q.block_state('wall:connect_east') && !q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							12,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:connect_north') && !q.block_state('wall:connect_south') && q.block_state('wall:connect_east') && q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:connect_north') && q.block_state('wall:connect_south') && !q.block_state('wall:connect_east') && q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('wall:connect_north') && q.block_state('wall:connect_south') && q.block_state('wall:connect_east') && !q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							12,
+							16,
+							16
+						]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('wall:connect_north') && q.block_state('wall:connect_south') && q.block_state('wall:connect_east') && q.block_state('wall:connect_west')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-8,
+							0,
+							-4
+						],
+						"size": [
+							16,
+							16,
+							12
+						]
+					}
+				}
+			}
+		]
+	}
+}

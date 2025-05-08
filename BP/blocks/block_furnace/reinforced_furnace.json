@@ -1,0 +1,155 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "block_furnace:reinforced_furnace",
+      "menu_category": {
+        "is_hidden_in_commands": false,
+        "category": "items"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      },
+      "states": {
+        "block_furnace:lit": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:light_dampening": 15.0,
+      "minecraft:light_emission": 0.0,
+      "tag:stone_pickaxe_diggable": {},
+      "tag:iron_pickaxe_diggable": {},
+      "tag:diamond_pickaxe_diggable": {},
+      "minecraft:geometry": "geometry.iron.furnaces",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "block_furnace:reinforced_furnace",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": "minecraft:wooden_pickaxe",
+						"destroy_speed": 1.15
+					},
+					{
+						"item": "minecraft:stone_pickaxe",
+						"destroy_speed": 0.6
+					},
+					{
+						"item": "minecraft:iron_pickaxe",
+						"destroy_speed": 0.4
+					},
+					{
+						"item": "minecraft:diamond_pickaxe",
+						"destroy_speed": 0.3
+					},
+					{
+						"item": "minecraft:netherite_pickaxe",
+						"destroy_speed": 0.25
+					},
+					{
+						"item": "minecraft:golden_pickaxe",
+						"destroy_speed": 0.2
+					}
+				]
+			},
+      "minecraft:loot": 
+                    "loot_tables/blocks/blocks/reinforced_furnace.json"
+    },
+    "events": {},
+    "permutations": [
+      {
+        "condition": "q.block_state('block_furnace:lit') == true",
+        "components": {
+          "minecraft:light_dampening": 0.0,
+          "minecraft:light_emission": 13.0,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "block_furnace:reinforced_furnace_active",
+              "render_method": "opaque",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('block_furnace:lit') == false",
+        "components": {
+          "minecraft:light_dampening": 0.0,
+          "minecraft:light_emission": 0.0,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "block_furnace:reinforced_furnace",
+              "render_method": "opaque",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

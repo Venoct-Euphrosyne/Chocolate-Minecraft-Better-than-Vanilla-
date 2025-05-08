@@ -1,0 +1,58 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ve:polished_andesite_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.stoneBrick"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:loot": 
+                    "loot_tables/blocks/blocks/polished_andesite_bricks.json",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": "minecraft:wooden_pickaxe",
+						"destroy_speed": 1.15
+					},
+					{
+						"item": "minecraft:stone_pickaxe",
+						"destroy_speed": 0.6
+					},
+					{
+						"item": "minecraft:iron_pickaxe",
+						"destroy_speed": 0.4
+					},
+					{
+						"item": "minecraft:diamond_pickaxe",
+						"destroy_speed": 0.3
+					},
+					{
+						"item": "minecraft:netherite_pickaxe",
+						"destroy_speed": 0.25
+					},
+					{
+						"item": "minecraft:golden_pickaxe",
+						"destroy_speed": 0.2
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "Bricks:polished_andesite_bricks",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#975039"
+		}
+	}
+}
