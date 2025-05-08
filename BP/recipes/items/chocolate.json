@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ve:choclate"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#C"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dye",
+        "data": 3
+      },
+      "C": {
+        "item": "minecraft:sugar"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:dye",
+        "data": 3
+      }
+    ],
+    "result": {
+      "item": "ve:chocolate"
+    }
+  }
+}
