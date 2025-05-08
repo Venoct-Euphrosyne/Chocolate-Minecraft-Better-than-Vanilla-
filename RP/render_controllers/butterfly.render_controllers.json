@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.butterfly": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ 
+          "Texture.butterfly1", 
+          "Texture.butterfly2", 
+          "Texture.butterfly3", 
+          "Texture.butterfly4", 
+          "Texture.butterfly5", 
+          "Texture.butterfly6", 
+          "Texture.butterfly7",
+          "Texture.butterfly8",
+          "Texture.butterfly9"
+         ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "array.skins[query.variant]" ]
+    }
+}
+}

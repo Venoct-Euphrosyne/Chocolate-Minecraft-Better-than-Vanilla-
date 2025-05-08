@@ -1,0 +1,15 @@
+entity.ve:nether_guardian.name=Nether Guardian
+item.spawn_egg.entity.ve:nether_guardian.name=Nether Guardian Spawn Egg
+
+entity.ve:butterfly.name=Butterfly
+item.spawn_egg.entity.ve:butterfly.name=Butterfly Spawn Egg
+
+block_furnace.reinforced_furnace=Reinforced Furnace
+tile.block_furnace:reinforced_furnace.name=Reinforced Furnace
+
+item.ve:chocolate=Chocolate
+
+tile.ve:polished_granite_bricks.name=Polished Granite Bricks
+tile.ve:polished_andesite_bricks.name=Polished Andesite Bricks
+tile.ve:polished_diorite_bricks.name=Polished Diorite Bricks
+item.ve:chicken_sandwich=Chicken Sandwich

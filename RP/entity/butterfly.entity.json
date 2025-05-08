@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ve:butterfly",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+				"textures": {
+					"butterfly1": "textures/entity/butterfly/butterfly1",
+					"butterfly2": "textures/entity/butterfly/butterfly2",
+					"butterfly3": "textures/entity/butterfly/butterfly3",
+					"butterfly4": "textures/entity/butterfly/butterfly4",
+					"butterfly5": "textures/entity/butterfly/butterfly5",
+					"butterfly6": "textures/entity/butterfly/butterfly6",
+					"butterfly7": "textures/entity/butterfly/butterfly7",
+					"butterfly8": "textures/entity/butterfly/butterfly8",
+					"butterfly9": "textures/entity/butterfly/butterfly9"
+				  },
+			"geometry": {
+				"default": "geometry.butterfly"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				]
+			},
+			"animations": {
+				"resting": "animation.butterfly.resting",
+				"flying": "animation.butterfly.flying",
+				"controller": "controller.animation.butterfly.move"
+			},
+			"render_controllers": ["controller.render.butterfly"],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#ff00e8"
+			}
+		}
+	}
+}

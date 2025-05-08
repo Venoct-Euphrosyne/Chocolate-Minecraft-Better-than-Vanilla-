@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.0",
+	"ve:polished_granite_bricks": {
+		"sound": "stone"
+	},
+	"ve:polished_andesite_bricks": {
+		"sound": "stone"
+	},
+	"ve:polished_diorite_bricks": {
+		"sound": "stone"
+	},
+	"ve:packed_ice_wall": {
+		"sound": "glass"
+	},
+	"ve:blue_ice_wall": {
+		"sound": "glass"
+	},
+	"ve:ice_wall": {
+		"sound": "glass"
+	},
+	"minecraft:frame" : {
+      "blockshape": "invisible"
+   }
+}

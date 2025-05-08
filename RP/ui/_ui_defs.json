@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/chest_screen.json",
+    "ui/block_furnace/block_furnace.json"
+  ]
+}

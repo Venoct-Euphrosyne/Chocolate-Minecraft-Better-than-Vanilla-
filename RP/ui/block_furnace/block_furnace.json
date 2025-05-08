@@ -1,0 +1,136 @@
+{
+  "namespace": "furnaces",
+
+  "chest_grid_item@common.container_item": {
+    "ignored": false,
+    "$item_collection_name": "container_items",
+    "size": [ 18, 18 ]
+  },
+
+  "default_slot": {
+    "type": "grid",
+    "size": [ 18, 18 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 36, 1 ],
+    "collection_name": "container_items",
+    "$grid_position|default": [ 0, 0 ],
+    "$cell_background|default": "common.cell_image",
+    "controls": [
+      {
+        "slot@chest_grid_item": {
+          "size": "$size",
+          "grid_position": "$grid_position",
+          "$focus_id_binding_type": "none",
+          "$focus_id": "crafting_output_item"
+        }
+      }
+    ]
+  },
+
+  "ui_slot": {
+    "type": "grid",
+    "size": [ 18, 18 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 36, 1 ],
+    "collection_name": "container_items",
+    "$grid_position|default": [ 0, 0 ],
+    "$cell_background|default": "",
+    "controls": [
+      {
+        "slot@chest_grid_item": {
+          "size": "$size",
+          "grid_position": "$grid_position",
+          "layer": 2,
+          "visible": true,
+          "enabled": false
+        }
+      }
+    ]
+  },
+
+  "title_label": {
+    "type": "label",
+    "offset": [ 8, 6 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "text": "$new_container_title",
+    "color": "$title_text_color",
+    "layer": 4,
+    "bindings": [
+      {
+        "binding_name": "#container_title"
+      }
+    ]
+  },
+
+  "furnace_panel": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [ 54, 54 ],
+    "controls": [
+      {
+        "input_slot@default_slot": {
+          "$item_renderer_size": [ 16, 16 ],
+          "$cell_image_size": [ 18, 18 ],
+          "$grid_position": [ 0, 0 ],
+          "$size": [ 18, 18 ],
+          "offset": [ -6, -40 ]
+        }
+      },
+      {
+        "fuel_slot@default_slot": {
+          "$item_renderer_size": [ 16, 16 ],
+          "$cell_image_size": [ 18, 18 ],
+          "$grid_position": [ 1, 0 ],
+          "$size": [ 18, 18 ],
+          "offset": [ -6.4, -4 ]
+        }
+      },
+      {
+        "arrow_slot@ui_slot": {
+          "$item_renderer_size": [ 32, 32 ],
+          "$cell_image_size": [ 0, 0 ],
+          "$grid_position": [ 2, 0 ],
+          "$size": [ 32, 32 ],
+          "offset": [ 14, -30 ],
+          "propagate_alpha": true
+        }
+      },
+      {
+        "flame_slot@ui_slot": {
+          "$item_renderer_size": [ 16, 16 ],
+          "$cell_image_size": [ 0, 0 ],
+          "$grid_position": [ 3, 0 ],
+          "$size": [ 16, 16 ],
+          "offset": [-7, -21 ],
+          "propagate_alpha": true
+        }
+      },
+      {
+        "output_slot@default_slot": {
+          "$item_renderer_size": [ 16, 16 ],
+          "$cell_image_size": [ 26, 26 ],
+          "$grid_position": [ 4, 0 ],
+          "$size": [ 26, 26 ],
+          "offset": [ 48, -26 ]
+        }
+      }
+    ]
+  },
+
+  "furnaces_panel_top_half": {
+    "type": "panel",
+    "size": [ 176, 166 ],
+    "offset": [ 0, 0 ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      { "label@title_label": {}},
+      { "furnace_panel@furnaces.furnace_panel": {
+        "offset": [ 0, 5 ]}}
+    ]
+  }
+}

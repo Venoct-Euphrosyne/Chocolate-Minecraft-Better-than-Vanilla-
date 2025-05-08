@@ -1,0 +1,9 @@
+{
+  "$furnaces_labels": "($new_container_title = 'vatonage.reinforced_furnace.block' or $new_container_title = 'vatonage.iron_furnace.block' or $new_container_title = 'vatonage.gold_furnace.block' or $new_container_title = 'vatonage.diamond_furnace.block' or $new_container_title = 'vatonage.crystal_furnace.block' or $new_container_title = 'vatonage.netherite_furnace.block' or $new_container_title = 'vatonage.emerald_furnace.block' or $new_container_title = 'vatonage.million_furnace.block' or $new_container_title = 'vatonage.obsidian_furnace.block' or $new_container_title = 'vatonage.rainbow_furnace.block')",
+  "$items": [
+      "coisa",
+      "coisa2",
+      "coisa3",
+      "coisa4"
+  ]
+}

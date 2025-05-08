@@ -1,0 +1,165 @@
+{
+	"texture_data": {
+		"chicken_sandwich": {
+			"textures": "textures/items/chicken_sandwich.png"
+		},
+		"chocolate": {
+			"textures": "textures/items/chocolate.png"
+		},
+		"block_furnace:flame_0": {
+			"textures": "textures/block_furnace/ui/flame_0"
+		},
+		"block_furnace:flame_1": {
+			"textures": "textures/block_furnace/ui/flame_1"
+		},
+		"block_furnace:flame_2": {
+			"textures": "textures/block_furnace/ui/flame_2"
+		},
+		"block_furnace:flame_3": {
+			"textures": "textures/block_furnace/ui/flame_3"
+		},
+		"block_furnace:flame_4": {
+			"textures": "textures/block_furnace/ui/flame_4"
+		},
+		"block_furnace:flame_5": {
+			"textures": "textures/block_furnace/ui/flame_5"
+		},
+		"block_furnace:flame_6": {
+			"textures": "textures/block_furnace/ui/flame_6"
+		},
+		"block_furnace:flame_7": {
+			"textures": "textures/block_furnace/ui/flame_7"
+		},
+		"block_furnace:flame_8": {
+			"textures": "textures/block_furnace/ui/flame_8"
+		},
+		"block_furnace:flame_9": {
+			"textures": "textures/block_furnace/ui/flame_9"
+		},
+		"block_furnace:flame_10": {
+			"textures": "textures/block_furnace/ui/flame_10"
+		},
+		"block_furnace:flame_11": {
+			"textures": "textures/block_furnace/ui/flame_11"
+		},
+		"block_furnace:flame_12": {
+			"textures": "textures/block_furnace/ui/flame_12"
+		},
+		"block_furnace:flame_13": {
+			"textures": "textures/block_furnace/ui/flame_13"
+		},
+		"block_furnace:blue_flame_0": {
+			"textures": "textures/block_furnace/ui/blue_flame_0"
+		},
+		"block_furnace:blue_flame_1": {
+			"textures": "textures/block_furnace/ui/blue_flame_1"
+		},
+		"block_furnace:blue_flame_2": {
+			"textures": "textures/block_furnace/ui/blue_flame_2"
+		},
+		"block_furnace:blue_flame_3": {
+			"textures": "textures/block_furnace/ui/blue_flame_3"
+		},
+		"block_furnace:blue_flame_4": {
+			"textures": "textures/block_furnace/ui/blue_flame_4"
+		},
+		"block_furnace:blue_flame_5": {
+			"textures": "textures/block_furnace/ui/blue_flame_5"
+		},
+		"block_furnace:blue_flame_6": {
+			"textures": "textures/block_furnace/ui/blue_flame_6"
+		},
+		"block_furnace:blue_flame_7": {
+			"textures": "textures/block_furnace/ui/blue_flame_7"
+		},
+		"block_furnace:blue_flame_8": {
+			"textures": "textures/block_furnace/ui/blue_flame_8"
+		},
+		"block_furnace:blue_flame_9": {
+			"textures": "textures/block_furnace/ui/blue_flame_9"
+		},
+		"block_furnace:blue_flame_10": {
+			"textures": "textures/block_furnace/ui/blue_flame_10"
+		},
+		"block_furnace:blue_flame_11": {
+			"textures": "textures/block_furnace/ui/blue_flame_11"
+		},
+		"block_furnace:blue_flame_12": {
+			"textures": "textures/block_furnace/ui/blue_flame_12"
+		},
+		"block_furnace:blue_flame_13": {
+			"textures": "textures/block_furnace/ui/blue_flame_13"
+		},
+		"block_furnace:arrow_0": {
+			"textures": "textures/block_furnace/ui/arrow_0"
+		},
+		"block_furnace:arrow_1": {
+			"textures": "textures/block_furnace/ui/arrow_1"
+		},
+		"block_furnace:arrow_2": {
+			"textures": "textures/block_furnace/ui/arrow_2"
+		},
+		"block_furnace:arrow_3": {
+			"textures": "textures/block_furnace/ui/arrow_3"
+		},
+		"block_furnace:arrow_4": {
+			"textures": "textures/block_furnace/ui/arrow_4"
+		},
+		"block_furnace:arrow_5": {
+			"textures": "textures/block_furnace/ui/arrow_5"
+		},
+		"block_furnace:arrow_6": {
+			"textures": "textures/block_furnace/ui/arrow_6"
+		},
+		"block_furnace:arrow_7": {
+			"textures": "textures/block_furnace/ui/arrow_7"
+		},
+		"block_furnace:arrow_8": {
+			"textures": "textures/block_furnace/ui/arrow_8"
+		},
+		"block_furnace:arrow_9": {
+			"textures": "textures/block_furnace/ui/arrow_9"
+		},
+		"block_furnace:arrow_10": {
+			"textures": "textures/block_furnace/ui/arrow_10"
+		},
+		"block_furnace:arrow_11": {
+			"textures": "textures/block_furnace/ui/arrow_11"
+		},
+		"block_furnace:arrow_12": {
+			"textures": "textures/block_furnace/ui/arrow_12"
+		},
+		"block_furnace:arrow_13": {
+			"textures": "textures/block_furnace/ui/arrow_13"
+		},
+		"block_furnace:arrow_14": {
+			"textures": "textures/block_furnace/ui/arrow_14"
+		},
+		"block_furnace:arrow_15": {
+			"textures": "textures/block_furnace/ui/arrow_15"
+		},
+		"block_furnace:arrow_16": {
+			"textures": "textures/block_furnace/ui/arrow_16"
+		},
+		"block_furnace:arrow_17": {
+			"textures": "textures/block_furnace/ui/arrow_17"
+		},
+		"block_furnace:arrow_18": {
+			"textures": "textures/block_furnace/ui/arrow_18"
+		},
+		"block_furnace:arrow_19": {
+			"textures": "textures/block_furnace/ui/arrow_19"
+		},
+		"block_furnace:arrow_20": {
+			"textures": "textures/block_furnace/ui/arrow_20"
+		},
+		"block_furnace:arrow_21": {
+			"textures": "textures/block_furnace/ui/arrow_21"
+		},
+		"block_furnace:arrow_22": {
+			"textures": "textures/block_furnace/ui/arrow_22"
+		}
+	},
+	"resource_pack_name": "Iron Furnaces",
+	"texture_name": "atlas.items"
+}
