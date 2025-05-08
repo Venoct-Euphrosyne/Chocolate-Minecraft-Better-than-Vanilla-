@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Chocolate Minecraft (better than Vanilla)",
+		"description": "Chocolate Minecraft (better than Vanilla) Resource Pack",
+		"uuid": "78129d64-116f-08e7-603f-82707e19d430",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Venoct Euphrosyne"]
+	},
+	"modules": [
+		{
+			"description": "Chocolate Minecraft (better than Vanilla)",
+			"type": "resources",
+			"uuid": "96c45c67-a29c-86fa-d664-262b6a2204fc",
+			"version": [1, 0, 0]
+		}
+	]
+}
