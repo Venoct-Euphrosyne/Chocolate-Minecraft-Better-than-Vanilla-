@@ -72,6 +72,14 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 0.5
 			},
+			"minecraft:liquid_detection": {
+    "detection_rules": [
+        {
+            "liquid_type": "water",
+            "can_contain_liquid": true
+        }
+    ]
+},
 			"minecraft:loot": 
                     "loot_tables/blocks/walls/ice_wall.json",
 			"minecraft:friction": 0.02,
