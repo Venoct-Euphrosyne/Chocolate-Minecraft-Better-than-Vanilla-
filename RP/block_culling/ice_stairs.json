@@ -1,0 +1,298 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block_culling_rules": {
+        "description": {
+            "identifier": "ve:culling.ice_stairs" 
+        },
+        "rules": [
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normale", 
+                    "cube": 0, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normale", 
+                    "cube": 0, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normale", 
+                    "cube": 1, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normale", 
+                    "cube": 1, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidee", 
+                    "cube": 0, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidee", 
+                    "cube": 0, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidee", 
+                    "cube": 1, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidee", 
+                    "cube": 1, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normalw", 
+                    "cube": 0, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normalw", 
+                    "cube": 0, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normalw", 
+                    "cube": 1, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normalw", 
+                    "cube": 1, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidew", 
+                    "cube": 0, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidew", 
+                    "cube": 0, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "south",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidew", 
+                    "cube": 1, 
+                    "face": "south" 
+                }
+            },
+            {
+                "direction": "north",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsidew", 
+                    "cube": 1, 
+                    "face": "north" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normaln", 
+                    "cube": 0, 
+                    "face": "west" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normaln", 
+                    "cube": 0, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normaln", 
+                    "cube": 1, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normaln", 
+                    "cube": 1, 
+                    "face": "west" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsiden", 
+                    "cube": 0, 
+                    "face": "west" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsiden", 
+                    "cube": 0, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsiden", 
+                    "cube": 1, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsiden", 
+                    "cube": 1, 
+                    "face": "west" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normals", 
+                    "cube": 0, 
+                    "face": "west" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normals", 
+                    "cube": 0, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normals", 
+                    "cube": 1, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "normals", 
+                    "cube": 1, 
+                    "face": "west" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsides", 
+                    "cube": 0, 
+                    "face": "west" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsides", 
+                    "cube": 0, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "east",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsides", 
+                    "cube": 1, 
+                    "face": "east" 
+                }
+            },
+            {
+                "direction": "west",
+                "condition": "same_block",
+                "geometry_part": {
+                    "bone": "upsides", 
+                    "cube": 1, 
+                    "face": "west" 
+                }
+            }
+        ]
+    }
+}

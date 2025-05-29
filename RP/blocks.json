@@ -18,6 +18,15 @@
 	"ve:ice_wall": {
 		"sound": "glass"
 	},
+	"ve:packed_ice_stairs": {
+		"sound": "glass"
+	},
+	"ve:blue_ice_stairs": {
+		"sound": "glass"
+	},
+	"ve:ice_stairs": {
+		"sound": "glass"
+	},
 	"minecraft:frame" : {
       "blockshape": "invisible"
    }

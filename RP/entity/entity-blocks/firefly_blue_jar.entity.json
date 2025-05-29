@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ve:firefly_blue_jar",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/entity-block/firefly_blue_jar"
+			},
+			"geometry": {
+				"default": "geometry.firefly_jar"
+			},
+			"animations": {
+				"life": "animation.firefly_blue_jar.fly"
+			},
+			"scripts": {
+				"animate": [
+					{ "life": "!query.ground_speed" }
+				]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#ff0000",
+				"overlay_color": "#30ff00"
+			},
+			"particle_effects": {
+				"blue": "jar:blue"
+			}
+		}
+	}
+}

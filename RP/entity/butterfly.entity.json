@@ -15,7 +15,9 @@
 					"butterfly6": "textures/entity/butterfly/butterfly6",
 					"butterfly7": "textures/entity/butterfly/butterfly7",
 					"butterfly8": "textures/entity/butterfly/butterfly8",
-					"butterfly9": "textures/entity/butterfly/butterfly9"
+					"butterfly9": "textures/entity/butterfly/butterfly9",
+					"butterfly10": "textures/entity/butterfly/butterfly10",
+					"butterfly11": "textures/entity/butterfly/butterfly11"
 				  },
 			"geometry": {
 				"default": "geometry.butterfly"

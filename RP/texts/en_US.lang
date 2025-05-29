@@ -4,12 +4,68 @@ item.spawn_egg.entity.ve:nether_guardian.name=Nether Guardian Spawn Egg
 entity.ve:butterfly.name=Butterfly
 item.spawn_egg.entity.ve:butterfly.name=Butterfly Spawn Egg
 
+entity.ve:firefly.name=Fire Fly
+item.spawn_egg.entity.ve:firefly.name=Fire Fly Spawn Egg
+
 block_furnace.reinforced_furnace=Reinforced Furnace
 tile.block_furnace:reinforced_furnace.name=Reinforced Furnace
 
 item.ve:chocolate=Chocolate
+item.ve:chicken_sandwich=Chicken Sandwich
 
 tile.ve:polished_granite_bricks.name=Polished Granite Bricks
 tile.ve:polished_andesite_bricks.name=Polished Andesite Bricks
 tile.ve:polished_diorite_bricks.name=Polished Diorite Bricks
-item.ve:chicken_sandwich=Chicken Sandwich
+
+
+item.ve:net=Butterfly Net
+item.ve:broken_net=Broken Butterfly Net
+
+item.ve:one=Blue and Rounded
+item.ve:two=Sunset with Spots
+item.ve:three=Yellow with Black Points
+item.ve:four=Blue, Red, and Brown
+item.ve:five=Green and Black with Points
+item.ve:six=White with Black Spots
+item.ve:seven=Purple and Black with Tails
+item.ve:eight=White and Pink with Round Bottoms
+item.ve:nine=Orange and Dark Yellow, Pointed
+item.ve:ten=Light Blue and Spotted
+item.ve:eleven=Teal with Stripes
+
+
+
+entity.ve:firefly_blue_jar.name=Fire Fly Jar (blue)
+item.spawn_egg.entity.ve:firefly_blue_jar.name=Spawn Fire Fly Jar (blue)
+entity.ve:firefly_red_jar.name=Fire Fly Jar (red)
+item.spawn_egg.entity.ve:firefly_red_jar.name=Spawn Fire Fly Jar (red)
+entity.ve:firefly_yellow_jar.name=Fire Fly Jar (yellow)
+item.spawn_egg.entity.ve:firefly_yellow_jar.name=Spawn Fire Fly Jar (yellow)
+entity.ve:firefly_green_jar.name=Fire Fly Jar (green)
+item.spawn_egg.entity.ve:firefly_green_jar.name=Spawn Fire Fly Jar (green)
+entity.ve:firefly_orange_jar.name=Fire Fly Jar (orange)
+item.spawn_egg.entity.ve:firefly_orange_jar.name=Spawn Fire Fly Jar (orange)
+entity.ve:firefly_cyan_jar.name=Fire Fly Jar (cyan)
+item.spawn_egg.entity.ve:firefly_cyan_jar.name=Spawn Fire Fly Jar (cyan)
+entity.ve:firefly_purple_jar.name=Fire Fly Jar (purple)
+item.spawn_egg.entity.ve:firefly_purple_jar.name=Spawn Fire Fly Jar (purple)
+entity.ve:firefly_pink_jar.name=Fire Fly Jar (pink)
+item.spawn_egg.entity.ve:firefly_pink_jar.name=Spawn Fire Fly Jar (pink)
+
+item.ve:fire_fly_juice_red=Fire Fly Juice (red)
+item.ve:fire_fly_juice_blue=Fire Fly Juice (blue)
+item.ve:fire_fly_juice_yellow=Fire Fly Juice (yellow)
+item.ve:fire_fly_juice_green=Fire Fly Juice (green)
+item.ve:fire_fly_juice_orange=Fire Fly Juice (orange)
+item.ve:fire_fly_juice_cyan=Fire Fly Juice (cyan)
+item.ve:fire_fly_juice_purple=Fire Fly Juice (purple)
+item.ve:fire_fly_juice_pink=Fire Fly Juice (pink)
+
+item.ve:fire_fly_jar_red=Fire Fly Jar (red)
+item.ve:fire_fly_jar_blue=Fire Fly Jar (blue)
+item.ve:fire_fly_jar_yellow=Fire Fly Jar (yellow)
+item.ve:fire_fly_jar_green=Fire Fly Jar (green)
+item.ve:fire_fly_jar_orange=Fire Fly Jar (orange)
+item.ve:fire_fly_jar_cyan=Fire Fly Jar (cyan)
+item.ve:fire_fly_jar_purple=Fire Fly Jar (purple)
+item.ve:fire_fly_jar_pink=Fire Fly Jar (pink)

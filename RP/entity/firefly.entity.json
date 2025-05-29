@@ -1,0 +1,61 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ve:firefly",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"firefly_blue": "textures/entity/firefly/firefly_blue",
+				"firefly_red": "textures/entity/firefly/firefly_red",
+				"firefly_yellow": "textures/entity/firefly/firefly_yellow",
+				"firefly_green": "textures/entity/firefly/firefly_green",
+				"firefly_orange": "textures/entity/firefly/firefly_orange",
+				"firefly_cyan": "textures/entity/firefly/firefly_cyan",
+				"firefly_purple": "textures/entity/firefly/firefly_purple",
+				"firefly_pink": "textures/entity/firefly/firefly_pink"
+			},
+			"geometry": {
+				"default": "geometry.firefly"
+			},
+			"animations": {
+				"flying_blue": "animation.firefly.flying_blue",
+				"flying_red": "animation.firefly.flying_red",
+				"flying_yellow": "animation.firefly.flying_yellow",
+				"flying_green": "animation.firefly.flying_green",
+				"flying_orange": "animation.firefly.flying_orange",
+				"flying_cyan": "animation.firefly.flying_cyan",
+				"flying_purple": "animation.firefly.flying_purple",
+				"flying_pink": "animation.firefly.flying_pink"
+			},
+			"scripts": {
+				"animate": [
+					{ "flying_blue": "query.variant == 0" },
+					{ "flying_red": "query.variant == 1" },
+					{ "flying_yellow": "query.variant == 2" },
+					{ "flying_green": "query.variant == 3" },
+					{ "flying_orange": "query.variant == 4" },
+					{ "flying_cyan": "query.variant == 5" },
+					{ "flying_purple": "query.variant == 6" },
+					{ "flying_pink": "query.variant == 7" }
+				]
+			},
+			"render_controllers": ["controller.render.firefly"],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#30ff00"
+			},
+			"particle_effects": {
+	"blue": "particle:blue",
+	"red": "particle:red",
+	"yellow": "particle:yellow",
+	"green": "particle:green",
+	"orange": "particle:orange",
+	"cyan": "particle:cyan",
+	"purple": "particle:purple",
+	"pink": "particle:pink"
+}
+		}
+	}
+}
