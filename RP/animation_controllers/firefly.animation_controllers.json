@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.firefly.flying_blue": {
+      "initial_state": "flying_blue",
+      "states" : {
+				"flying_blue" : {
+					"animations" : [ "flying_blue" ]
+    } 
+  }
+}
+  }
+}

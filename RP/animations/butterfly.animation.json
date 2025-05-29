@@ -3,7 +3,6 @@
 	"animations": {
 		"animation.butterfly.flying": {
 			"loop": true,
-			"animation_length": 24,
 			"bones": {
 				"body": {
 					"rotation": [45, 0, 0],
@@ -11,7 +10,7 @@
 				},
 				"head": {
 					"rotation": ["query.target_x_rotation", "query.target_y_rotation", 0],
-					"position": ["-this", "-17+math.cos(query.life_time * 343.774) * 1.6 - this", "-2-this"]
+					"position": ["-this", "-16+math.cos(query.life_time * 343.774) * 1.6 - this", "-1.5-this"]
 				},
 				"leftWing": {
 					"rotation": [0, "math.cos(query.life_time * 1410.6) * -30.0", 0],
