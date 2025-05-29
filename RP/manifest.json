@@ -8,11 +8,7 @@
 		"min_engine_version": [1, 16, 0]
 	},
 	"metadata": {
-		"authors": ["Venoct Euphrosyne"],
-		"generated_with": {
-			"blockbench_item_wizard": ["1.2.0"],
-			"blockbench_entity_wizard": ["1.7.0"]
-		}
+		"authors": ["Venoct Euphrosyne"]
 	},
 	"modules": [
 		{
