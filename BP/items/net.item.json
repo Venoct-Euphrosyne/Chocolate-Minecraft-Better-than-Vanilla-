@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ve:net",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "net"
+			},
+			"minecraft:durability": {
+    "damage_chance": {
+        "min": 0,
+        "max": 100
+    },
+    "max_durability": 100
+}
+		}
+	}
+}
