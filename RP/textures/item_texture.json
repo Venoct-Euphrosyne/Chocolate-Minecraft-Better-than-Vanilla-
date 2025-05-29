@@ -1,11 +1,103 @@
 {
 	"texture_data": {
+		"fire_fly_jar_blue": {
+			"textures": "textures/items/fire_fly_jar_blue.png"
+		},
+		"fire_fly_jar_red": {
+			"textures": "textures/items/fire_fly_jar_red.png"
+		},
+		"fire_fly_jar_yellow": {
+			"textures": "textures/items/fire_fly_jar_yellow.png"
+		},
+		"fire_fly_jar_green": {
+			"textures": "textures/items/fire_fly_jar_green.png"
+		},
+		"fire_fly_jar_orange": {
+			"textures": "textures/items/fire_fly_jar_orange.png"
+		},
+		"fire_fly_jar_cyan": {
+			"textures": "textures/items/fire_fly_jar_cyan.png"
+		},
+		"fire_fly_jar_purple": {
+			"textures": "textures/items/fire_fly_jar_purple.png"
+		},
+		"fire_fly_jar_pink": {
+			"textures": "textures/items/fire_fly_jar_pink.png"
+		},
+
+
+		"fire_fly_juice_red": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_red.png"
+		},
+		"fire_fly_juice_blue": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_blue.png"
+		},
+		"fire_fly_juice_yellow": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_yellow.png"
+		},
+		"fire_fly_juice_green": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_green.png"
+		},
+		"fire_fly_juice_cyan": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_cyan.png"
+		},
+		"fire_fly_juice_orange": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_orange.png"
+		},
+		"fire_fly_juice_purple": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_purple.png"
+		},
+		"fire_fly_juice_pink": {
+			"textures": "textures/items/ff-juice/fire_fly_juice_pink.png"
+		},
+		"net": {
+			"textures": "textures/items/net.png"
+		},
+		"broken_net": {
+			"textures": "textures/items/broken_net.png"
+		},
 		"chicken_sandwich": {
 			"textures": "textures/items/chicken_sandwich.png"
 		},
 		"chocolate": {
 			"textures": "textures/items/chocolate.png"
 		},
+		"purple_black_with_tails": {
+			"textures": "textures/items/butterflies/purple_black_with_tails.png"
+		},
+		"green_black_pointed": {
+			"textures": "textures/items/butterflies/green_black_pointed.png"
+		},
+		"white_pink_round_bottoms": {
+			"textures": "textures/items/butterflies/white_pink_round_bottoms.png"
+		},
+		"white_black_spotted_round": {
+			"textures": "textures/items/butterflies/white_black_spotted_round.png"
+		},
+		"yellow_black_points": {
+			"textures": "textures/items/butterflies/yellow_black_points.png"
+		},
+		"blue_red_brown": {
+			"textures": "textures/items/butterflies/blue_red_brown.png"
+		},
+		"sunset_spots": {
+			"textures": "textures/items/butterflies/sunset_spots.png"
+		},
+		"blue_rounded": {
+			"textures": "textures/items/butterflies/blue_rounded.png"
+		},
+		"orange_darkyellow_points": {
+			"textures": "textures/items/butterflies/orange_darkyellow_points.png"
+		},
+		"light_blue_spotted": {
+			"textures": "textures/items/butterflies/light_blue_spotted.png"
+		},
+		"teal_striped": {
+			"textures": "textures/items/butterflies/teal_striped.png"
+		},
+
+
+
 		"block_furnace:flame_0": {
 			"textures": "textures/block_furnace/ui/flame_0"
 		},

@@ -18,6 +18,9 @@
 		},
 		"block_furnace:reinforced_furnace": {
 			"textures": "textures/block_furnace/reinforced_furnace"
+		},
+		"ice_stairs": {
+			"textures": "textures/blocks/ice_stairs"
 		}
 	}
 }
