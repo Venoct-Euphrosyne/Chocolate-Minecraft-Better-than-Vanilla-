@@ -500,6 +500,13 @@ function isSolidBlock(block) {
         "minecraft:wooden_door",
         "minecraft:trapdoor",
         "minecraft:wooden_pressure_plate",
+        //my custom blocks for this addon
+        "ve:polished_andesite_brick_stairs",
+        "ve:polished_granite_brick_stairs",
+        "ve:polished_diorite_brick_stairs",
+        "ve:ice_stairs",
+        "ve:packed_ice_stairs",
+        "ve:blue_ice_stairs",
       
     ];
 

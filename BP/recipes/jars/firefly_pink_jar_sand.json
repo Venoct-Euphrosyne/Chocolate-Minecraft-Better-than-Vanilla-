@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ve:firefly_pink_jar_sand"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GGG",
+      "GJG",
+      "GSG"
+    ],
+    "key": {
+      "J": {
+        "item": "ve:fire_fly_juice_pink"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "S": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+	"unlock": [
+      {
+        "item": "ve:fire_fly_juice_pink"
+      }
+    ],
+    "result": {
+      "item": "ve:fire_fly_jar_pink"
+    }
+  }
+}

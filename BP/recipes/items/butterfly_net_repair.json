@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "ve:net_repair"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#CX"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:string"
+      },
+      "X": {
+        "item": "minecraft:stick"
+      },
+      "C":{
+        "item": "ve:broken_net"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "ve:broken_net"
+      },
+      {
+        "item": "minecraft:string"
+      }
+    ],
+    "result": {
+      "item": "ve:net"
+    }
+  }
+}

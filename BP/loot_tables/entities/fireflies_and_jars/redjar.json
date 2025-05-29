@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ve:fire_fly_jar_red",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

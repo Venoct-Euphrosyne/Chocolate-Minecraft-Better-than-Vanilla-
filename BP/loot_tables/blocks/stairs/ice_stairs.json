@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ve:packed_ice_wall",
+          "name": "ve:ice_stairs",
           "weight": 1,
           "conditions": [
             { "condition": "match_tool",
@@ -28,7 +28,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ve:packed_ice_wall",
+          "name": "ve:ice_stairs",
           "weight": 1,
           "conditions": [
             { "condition": "match_tool",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ve:packed_ice_wall",
+          "name": "ve:ice_stairs",
           "weight": 1,
           "conditions": [
             { "condition": "match_tool",
@@ -74,7 +74,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ve:packed_ice_wall",
+          "name": "ve:ice_stairs",
           "weight": 1,
           "conditions": [
             { "condition": "match_tool",
@@ -97,7 +97,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ve:packed_ice_wall",
+          "name": "ve:ice_stairs",
           "weight": 1,
           "conditions": [
             { "condition": "match_tool",
@@ -120,7 +120,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "ve:packed_ice_wall",
+          "name": "ve:ice_stairs",
           "weight": 1,
           "conditions": [
             { "condition": "match_tool",

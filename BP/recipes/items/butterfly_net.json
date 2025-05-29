@@ -2,34 +2,34 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "ve:chocolate"
+    "identifier": "ve:net"
     },
 
     
     "tags": [ "crafting_table" ],
     "pattern": [
-      "#C"
+      "###",
+      "###",
+      "X##"
     ],
     "key": {
       "#": {
-        "item": "minecraft:dye",
-        "data": 3
+        "item": "minecraft:string"
       },
-      "C": {
-        "item": "minecraft:sugar"
+      "X": {
+        "item": "minecraft:stick"
       }
     },
 	"unlock": [
       {
-        "item": "minecraft:sugar"
+        "item": "minecraft:stick"
       },
       {
-        "item": "minecraft:dye",
-        "data": 3
+        "item": "minecraft:string"
       }
     ],
     "result": {
-      "item": "ve:chocolate"
+      "item": "ve:net"
     }
   }
 }
