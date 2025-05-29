@@ -74,14 +74,7 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 6
 			},
-			"minecraft:liquid_detection": {
-    "detection_rules": [
-        {
-            "liquid_type": "water",
-            "can_contain_liquid": true
-        }
-    ]
-},
+			
 			"tag:wall:is_wall": {},
 			"minecraft:geometry": {
 				"identifier": "geometry.wall_block",

@@ -86,7 +86,7 @@
 			"tag:wall:is_wall": {},
 			"minecraft:geometry": {
 				"identifier": "geometry.ice_wall",
-				"culling": "ve:culling.ice_wall",
+			"culling": "ve:culling.ice_wall",
 				"bone_visibility": {
 					"center": "!q.block_state('wall:slim')",
 					"center_slim_south_north": "q.block_state('wall:slim') && q.block_state('wall:slim_bit') == 'north_south' && !q.block_state('wall:top_bit')",

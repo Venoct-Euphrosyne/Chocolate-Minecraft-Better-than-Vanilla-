@@ -1,0 +1,82 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ve:firefly_yellow_jar",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+            "ve:despawn": {
+				"minecraft:instant_despawn": {}
+},
+            "ve:age": {
+  "minecraft:ageable": {
+  "duration": 0.1,
+  "grow_up": {
+    "event": "ve:despawn",
+    "target": "self"
+  }
+}
+}
+        },
+		"components": {		
+				"minecraft:knockback_resistance": {
+					"value": 1
+				},	
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": true
+				},
+				"minecraft:push_through": {
+					"value": 1
+				},
+				"minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "deals_damage": "no",
+            "on_damage": {
+              "filters": {
+                "subject": "other",
+                "test": "is_family",
+                "value": "player"
+              },
+              "event": "ve:drop_item"
+            }
+          },
+          {
+            "deals_damage": "no"
+          }
+        ]
+      },
+				"minecraft:renders_when_invisible": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"effect @s invisibility infinite 0 true"
+					]
+				}
+			},
+            "ve:drop_item": {
+                "queue_command": {
+        "command": "loot spawn ~ ~ ~ loot \"entities/fireflies_and_jars/yellowjar\""
+    },
+    "add": {
+    "component_groups": [
+      "ve:age"
+    ]
+  }
+            },
+            "ve:despawn": {
+  "add": {
+    "component_groups": [
+      "ve:despawn"
+    ]
+  }
+}
+		}
+	}
+}
