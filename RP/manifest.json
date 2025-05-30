@@ -3,7 +3,7 @@
 	"header": {
 		"name": "Chocolate Minecraft (better than Vanilla) 1.0.2 Butterfly net and Fireflies!!!",
 		"description": "Chocolate Minecraft (better than Vanilla) Resource Pack",
-		"uuid": "fe56cb56-6689-4b69-9463-d6ee0cf22723",
+		"uuid": "fe56ca56-6689-4b69-9463-d6ee0cf22723",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
@@ -14,7 +14,7 @@
 		{
 			"description": "Chocolate Minecraft (better than Vanilla) 1.0.2 Butterfly net and Fireflies!!!",
 			"type": "resources",
-			"uuid": "53cc8ef5-8593-4065-9aa7-d3ff118ef434",
+			"uuid": "53cc8ef5-8593-4065-9aa7-d3ff117ef434",
 			"version": [1, 0, 0]
 		}
 	]
