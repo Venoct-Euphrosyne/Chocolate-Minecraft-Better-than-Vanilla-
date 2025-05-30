@@ -27,7 +27,9 @@ When a player kills a firefly, they can drop firefly juice, when used in a craft
 Jar recipe (G is glass, J is your juice color, S is soul sand or soil): 
 
 GGG
+
 GJG
+
 GSG
 
 Known bugs:
