@@ -16,6 +16,8 @@ Fixed the Nether Guardian animation for 1.21.82 update
 
 Adds the butterfly net, when used on a butterfly allows you to pick it up (In its current variant as well), so you have the ability to place it in an item frame, or place inside your own house! After a while the butterfly net can break, which you can repair with 1 string and 1 stick: "#XC" # = string, C = stick. The net itself can be crafted with 1 string in the bottom left corner, and the other 8 slots all string. 
 
+Also adds 2 new butterfly variants
+
 Known bugs:
 
  - the butterfly items have an eating sound when used to place back down.
