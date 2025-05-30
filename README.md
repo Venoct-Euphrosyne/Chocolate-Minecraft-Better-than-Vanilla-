@@ -6,6 +6,10 @@ Credits: Alien edds for the wall template. Iron furnaces used as a furnace templ
 
 1.0.2 Changelog:
 
+Requires the Upcoming creator features experiement toggle (only for the ice walls and stairs to cull correctly)
+
+I recommend playing with your content log turned off (the stairs will spam errors if you walk too far away from where they're placed and Im not sure how to fix it at this moment)
+
 Updated the chocolate recipe (identifier was mispelt)
 
 Fixed the Nether Guardian animation for 1.21.82 update
