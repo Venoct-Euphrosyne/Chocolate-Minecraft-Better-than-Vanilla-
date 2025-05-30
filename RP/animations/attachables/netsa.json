@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nets.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [-75.11177, -25.81102, -91.3866],
+					"position": [1.8, 18.7, 4]
+				}
+			}
+		},
+		"animation.nets.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [0, -50, -90],
+					"position": [-2, 26, -8.5]
+				}
+			}
+		}
+	}
+}
