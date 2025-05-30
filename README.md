@@ -5,6 +5,7 @@ Be sure to read both .docx in the addon folder before installing.
 Credits: Alien edds for the wall template. Iron furnaces used as a furnace template.
 
 1.0.2 Changelog:
+
 Updated the chocolate recipe (identifier was mispelt)
 
 Fixed the Nether Guardian animation for 1.21.82 update
@@ -15,7 +16,7 @@ Known bugs:
 
  - the butterfly items have an eating sound when used to place back down.
 
- - the butterfly will not spawn back in the same size variant as it was picked up in
+ - the butterfly will not spawn back in the same size variant as it was picked up in (Not fixable as its possible to document its scale data in the item)
 
 Adds fireflies! They spawn naturally in swamps (at night), and can be eaten by the frogs. Spawns in 8 color variants, which you can use dye to change their color as follows:
 
@@ -26,9 +27,7 @@ When a player kills a firefly, they can drop firefly juice, when used in a craft
 Jar recipe (G is glass, J is your juice color, S is soul sand or soil): 
 
 GGG
-
 GJG
-
 GSG
 
 Known bugs:
@@ -45,7 +44,7 @@ Known bugs:
 
 - the normal ice stairs have missing texture faces sometimes
 
-- the normal ice stairs have a weird breaking overlay.
+- the normal ice stairs have a weird breaking overlay. (Not fixable because its a stair, and I had to make the UV not overlay traditionally)
 
 New bugs from pre-existing features I've found:
 
