@@ -1,0 +1,160 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"mossy_stone": {
+			"textures": "textures/blocks/mossy_stone"
+		},
+		"polished_stone": {
+			"textures": "textures/blocks/polished_stone"
+		},
+		"stone_thin_bricks": {
+			"textures": "textures/blocks/stone_thin_bricks.png"
+		},
+		"stone_tiles": {
+			"textures": "textures/blocks/stone_tiles.png"
+		},
+		"cracked_stone_tiles": {
+			"textures": "textures/blocks/cracked_stone_tiles.png"
+		},
+
+
+		"mossy_granite_stone": {
+			"textures": "textures/blocks/mossy_granite_stone.png"
+		},
+        "cobbled_granite": {
+			"textures": "textures/blocks/cobbled_granite.png"
+		},
+		"mossy_cobbled_granite": {
+			"textures": "textures/blocks/mossy_cobbled_granite.png"
+		},
+		"polished_granite_bricks": {
+			"textures": "textures/blocks/polished_granite_bricks.png"
+		},
+		"mossy_polished_granite_bricks": {
+			"textures": "textures/blocks/mossy_polished_granite_bricks.png"
+		},
+		"cracked_polished_granite_bricks": {
+			"textures": "textures/blocks/cracked_polished_granite_bricks.png"
+		},
+		"polished_granite_thin_bricks": {
+			"textures": "textures/blocks/polished_granite_thin_bricks.png"
+		},
+		"polished_granite_tiles": {
+			"textures": "textures/blocks/polished_granite_tiles.png"
+		},
+		"cracked_polished_granite_tiles": {
+			"textures": "textures/blocks/cracked_polished_granite_tiles.png"
+		},
+		"chiseled_granite": {
+			"textures": "textures/blocks/chiseled_granite"
+		},
+
+
+		"mossy_andesite_stone": {
+			"textures": "textures/blocks/mossy_andesite_stone.png"
+		},
+        "cobbled_andesite": {
+			"textures": "textures/blocks/cobbled_andesite.png"
+		},
+		"mossy_cobbled_andesite": {
+			"textures": "textures/blocks/mossy_cobbled_andesite.png"
+		},
+		"polished_andesite_bricks": {
+			"textures": "textures/blocks/polished_andesite_bricks.png"
+		},
+		"mossy_polished_andesite_bricks": {
+			"textures": "textures/blocks/mossy_polished_andesite_bricks.png"
+		},
+		"cracked_polished_andesite_bricks": {
+			"textures": "textures/blocks/cracked_polished_andesite_bricks.png"
+		},
+		"polished_andesite_thin_bricks": {
+			"textures": "textures/blocks/polished_andesite_thin_bricks.png"
+		},
+		"polished_andesite_tiles": {
+			"textures": "textures/blocks/polished_andesite_tiles.png"
+		},
+		"cracked_polished_andesite_tiles": {
+			"textures": "textures/blocks/cracked_polished_andesite_tiles.png"
+		},
+		"chiseled_andesite": {
+			"textures": "textures/blocks/chiseled_andesite"
+		},
+
+
+		
+        "mossy_diorite_stone": {
+			"textures": "textures/blocks/mossy_diorite_stone.png"
+		},
+        "cobbled_diorite": {
+			"textures": "textures/blocks/cobbled_diorite.png"
+		},
+		"mossy_cobbled_diorite": {
+			"textures": "textures/blocks/mossy_cobbled_diorite.png"
+		},
+		"polished_diorite_bricks": {
+			"textures": "textures/blocks/polished_diorite_bricks.png"
+		},
+		"mossy_polished_diorite_bricks": {
+			"textures": "textures/blocks/mossy_polished_diorite_bricks.png"
+		},
+		"cracked_polished_diorite_bricks": {
+			"textures": "textures/blocks/cracked_polished_diorite_bricks.png"
+		},
+		"polished_diorite_thin_bricks": {
+			"textures": "textures/blocks/polished_diorite_thin_bricks.png"
+		},
+		"polished_diorite_tiles": {
+			"textures": "textures/blocks/polished_diorite_tiles.png"
+		},
+		"cracked_polished_diorite_tiles": {
+			"textures": "textures/blocks/cracked_polished_diorite_tiles.png"
+		},
+		"chiseled_diorite": {
+			"textures": "textures/blocks/chiseled_diorite"
+		},
+
+
+		"mossy_tuff": {
+			"textures": "textures/blocks/mossy_tuff.png"
+		},
+        "cobbled_tuff": {
+			"textures": "textures/blocks/cobbled_tuff.png"
+		},
+		"mossy_cobbled_tuff": {
+			"textures": "textures/blocks/mossy_cobbled_tuff.png"
+		},
+		"mossy_tuff_bricks": {
+			"textures": "textures/blocks/mossy_tuff_bricks.png"
+		},
+		"cracked_tuff_bricks": {
+			"textures": "textures/blocks/cracked_tuff_bricks.png"
+		},
+		"tuff_thin_bricks": {
+			"textures": "textures/blocks/tuff_thin_bricks.png"
+		},
+		"tuff_tiles": {
+			"textures": "textures/blocks/tuff_tiles.png"
+		},
+		"cracked_tuff_tiles": {
+			"textures": "textures/blocks/cracked_tuff_tiles.png"
+		},
+
+
+		"mossy_deepslate": {
+			"textures": "textures/blocks/mossy_deepslate.png"
+		},
+		"mossy_deepslate_bricks": {
+			"textures": "textures/blocks/mossy_deepslate_bricks.png"
+		},
+		"mossy_cobbled_deepslate": {
+			"textures": "textures/blocks/mossy_cobbled_deepslate.png"
+		},
+		"polished_deepslate_thin_bricks": {
+			"textures": "textures/blocks/polished_deepslate_thin_bricks.png"
+		}
+	}
+}
