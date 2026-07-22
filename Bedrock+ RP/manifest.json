@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Blocks +",
+		"name": "Blocks + resource pack",
+		"uuid": "33333333-3333-4333-8333-333333333333",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 0]
+	},
+	"modules": [
+		{
+			"description": "Blocks +",
+			"type": "resources",
+			"uuid": "44444444-4444-4444-4444-444444444444",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_block_wizard": ["1.6.1"]
+		}
+	}
+}

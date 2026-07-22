@@ -1,0 +1,33 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ve:cracked_polished_andesite_tiles",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cracked_polished_andesite_tiles",
+					"render_method": "alpha_test_to_opaque"
+				}
+			},
+			"minecraft:map_color": "#838f81",
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"minecraft:redstone_conductivity": {
+				"redstone_conductor": true
+			}
+		}
+	}
+}

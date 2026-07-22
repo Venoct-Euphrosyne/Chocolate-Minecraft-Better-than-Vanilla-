@@ -1,0 +1,56 @@
+##andesite
+tile.ve:mossy_Andesite_stone.name=Mossy Andesite
+tile.ve:cobbled_Andesite.name=Cobbled Andesite
+tile.ve:mossy_cobbled_Andesite.name=Mossy Cobbled Andesite
+tile.ve:polished_Andesite_bricks.name=Polished Andesite Bricks
+tile.ve:mossy_polished_Andesite_bricks.name=Mossy Polished Andesite Bricks
+tile.ve:cracked_polished_Andesite_bricks.name=Cracked Polished Andesite Bricks
+tile.ve:polished_Andesite_tiles.name=Polished Andesite Tiles
+tile.ve:cracked_polished_Andesite_tiles.name=Cracked Polished Andesite Tiles
+tile.ve:polished_Andesite_thin_bricks.name=Polished Andesite Thin Bricks
+tile.ve:chiseled_Andesite.name=Chiseled Andesite
+
+##granite
+tile.ve:mossy_granite_stone.name=Mossy Granite
+tile.ve:cobbled_granite.name=Cobbled Granite
+tile.ve:mossy_cobbled_granite.name=Mossy Cobbled Granite
+tile.ve:polished_granite_bricks.name=Polished Granite Bricks
+tile.ve:mossy_polished_granite_bricks.name=Mossy Polished Granite Bricks
+tile.ve:cracked_polished_granite_bricks.name=Cracked Polished Granite Bricks
+tile.ve:polished_granite_tiles.name=Polished Granite Tiles
+tile.ve:cracked_polished_granite_tiles.name=Cracked Polished Granite Tiles
+tile.ve:polished_granite_thin_bricks.name=Polished Granite Thin Bricks
+tile.ve:chiseled_granite.name=Chiseled Granite
+
+##diorite
+tile.ve:mossy_Diorite_stone.name=Mossy Diorite
+tile.ve:cobbled_Diorite.name=Cobbled Diorite
+tile.ve:mossy_cobbled_Diorite.name=Mossy Cobbled Diorite
+tile.ve:polished_Diorite_bricks.name=Polished Diorite Bricks
+tile.ve:mossy_polished_Diorite_bricks.name=Mossy Polished Diorite Bricks
+tile.ve:cracked_polished_Diorite_bricks.name=Cracked Polished Diorite Bricks
+tile.ve:polished_Diorite_tiles.name=Polished Diorite Tiles
+tile.ve:cracked_polished_Diorite_tiles.name=Cracked Polished Diorite Tiles
+tile.ve:polished_Diorite_thin_bricks.name=Polished Diorite Thin Bricks
+tile.ve:chiseled_Diorite.name=Chiseled Diorite
+
+##tuff
+tile.ve:cobbled_tuff.name=Cobbled Tuff
+tile.ve:mossy_cobbled_tuff.name=Mossy Cobbled Tuff 
+tile.ve:mossy_tuff.name=Mossy Tuff
+tile.ve:mossy_tuff_bricks.name=Mossy Tuff Bricks 
+tile.ve:cracked_tuff_bricks.name=Cracked Tuff Bricks
+tile.ve:tuff_thin_bricks.name=Tuff Thin Bricks 
+tile.ve:tuff_tiles.name=Tuff Tiles 
+tile.ve:cracked_tuff_tiles.name=Cracked Tuff Tiles
+
+##other_stone
+tile.ve:mossy_stone.name=Mossy Stone
+tile.ve:polished_stone.name=Polished Stone
+tile.ve:Stone_thin_bricks.name=Stone Thin Bricks 
+tile.ve:Stone_tiles.name=Stone Tiles 
+tile.ve:cracked_Stone_tiles.name=Cracked Stone Tiles
+tile.ve:mossy_deepslate.name=Mossy Deepslate 
+tile.ve:mossy_deepslate_bricks.name=Mossy Deepslate Bricks 
+tile.ve:polished_deepslate_thin_bricks.name=Polished Deepslate Thin Bricks
+tile.ve:mossy_cobbled_deepslate.name=Mossy Cobbled Deepslate
